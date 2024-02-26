@@ -1,0 +1,24 @@
+{
+    "name": "ds_sale_order_raw_csv",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_ablob",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "fileName": "salesorder.csv",
+                "container": "staging-data"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": false,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

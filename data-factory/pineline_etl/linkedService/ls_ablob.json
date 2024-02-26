@@ -1,0 +1,13 @@
+{
+    "name": "ls_ablob",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "description": "linked to blob storage account",
+        "annotations": [],
+        "type": "AzureBlobStorage",
+        "typeProperties": {
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=demo;EndpointSuffix=core.windows.net;",
+            "encryptedCredential": "Nhập secret code"
+        }
+    }
+}
