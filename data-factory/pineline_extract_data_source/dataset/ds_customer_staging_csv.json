@@ -1,5 +1,5 @@
 {
-    "name": "ds_customer_raw_csv",
+    "name": "ds_customer_staging_csv",
     "properties": {
         "linkedServiceName": {
             "referenceName": "ls_ablob",

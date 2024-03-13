@@ -5,8 +5,8 @@
         "annotations": [],
         "type": "AzureDatabricks",
         "typeProperties": {
-            "domain": "https://adb-5362825764099311.11.azuredatabricks.net",
-            "existingClusterId": "0201-041706-4elbg5iz",
+            "domain": "Nhập URL truy cập Databricks",
+            "existingClusterId": "Nhập Cluster ID",
             "encryptedCredential": "Nhập secret code"
         }
     }

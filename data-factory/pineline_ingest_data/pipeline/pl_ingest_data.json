@@ -15,7 +15,7 @@
                 },
                 "userProperties": [],
                 "typeProperties": {
-                    "notebookPath": "/Users/tuandht97@gmail.com/ingest_customer"
+                    "notebookPath": "Chọn lại đường dẫn đến notebook"
                 },
                 "linkedServiceName": {
                     "referenceName": "ls_databricks",
@@ -42,7 +42,7 @@
                 },
                 "userProperties": [],
                 "typeProperties": {
-                    "notebookPath": "/Users/tuandht97@gmail.com/ingest_product"
+                    "notebookPath": "Chọn lại đường dẫn đến notebook"
                 },
                 "linkedServiceName": {
                     "referenceName": "ls_databricks",
@@ -69,7 +69,27 @@
                 },
                 "userProperties": [],
                 "typeProperties": {
-                    "notebookPath": "/Users/tuandht97@gmail.com/ingest_sale_order"
+                    "notebookPath": "Chọn lại đường dẫn đến notebook"
+                },
+                "linkedServiceName": {
+                    "referenceName": "ls_databricks",
+                    "type": "LinkedServiceReference"
+                }
+            },
+            {
+                "name": "Create Delta Lake",
+                "type": "DatabricksNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebookPath": "/Users/thomc@bnh.vn/util/prepare_database"
                 },
                 "linkedServiceName": {
                     "referenceName": "ls_databricks",
